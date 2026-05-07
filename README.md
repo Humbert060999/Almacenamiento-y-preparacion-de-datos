@@ -25,12 +25,14 @@ Esto permitirá almacenar información transaccional y posteriormente transforma
 
 # Tecnologías Utilizadas
 
-- SQL Server 2025
+- SQL Server 
 - SQL Server Management Studio (SSMS)
-- Visual Studio Community 2022
+- Visual Studio Community 
 - SQL Server Integration Services (SSIS)
 - SQL Server Database Project
 - Analysis Services Tabular Project
+- Report Server Project
+
 ---
 
 # Modelo de Datos
@@ -89,11 +91,13 @@ Para el análisis de información se implementó un modelo estrella compuesto po
 
 Instalar:
 
-- SQL Server 2025
+- SQL Server 
 - SQL Server Management Studio (SSMS)
-- Visual Studio Community 2022
+- Visual Studio Community 
 - SQL Server Integration Services (SSIS)
-- SSDT (SQL Server Data Tools)
+- SQL Server Database Project
+- Analysis Services Tabular Project
+- Report Server Project
 
 ---
 
