@@ -12,8 +12,8 @@
   DTS:ObjectName="Employee"
   DTS:PackageType="5"
   DTS:ProtectionLevel="0"
-  DTS:VersionBuild="58"
-  DTS:VersionGUID="{9A0CC6DE-171F-4D85-B3B4-6986EAF862B6}">
+  DTS:VersionBuild="62"
+  DTS:VersionGUID="{4173ABE4-C0B0-414C-8D74-D6507C3A11D9}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -216,114 +216,123 @@
                       cachedLength="60"
                       cachedName="Address"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[Address]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Address]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Address]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[City]"
                       cachedDataType="wstr"
                       cachedLength="15"
                       cachedName="City"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[City]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[City]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[City]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[Region]"
                       cachedDataType="wstr"
                       cachedLength="15"
                       cachedName="Region"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[Region]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Region]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Region]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[PostalCode]"
                       cachedDataType="wstr"
                       cachedLength="10"
                       cachedName="PostalCode"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[PostalCode]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[PostalCode]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[PostalCode]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[Country]"
                       cachedDataType="wstr"
                       cachedLength="15"
                       cachedName="Country"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[Country]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Country]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Country]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[EmployeeID]"
                       cachedDataType="i4"
                       cachedName="EmployeeID"
+                      cachedSortKeyPosition="1"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeID]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[EmployeeID]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[EmployeeID]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[LastName]"
                       cachedDataType="wstr"
                       cachedLength="20"
                       cachedName="LastName"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[LastName]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[LastName]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[LastName]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[FirstName]"
                       cachedDataType="wstr"
                       cachedLength="10"
                       cachedName="FirstName"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[FirstName]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[FirstName]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[FirstName]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[Title]"
                       cachedDataType="wstr"
                       cachedLength="30"
                       cachedName="Title"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[Title]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Title]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Title]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[TitleOfCourtesy]"
                       cachedDataType="wstr"
                       cachedLength="25"
                       cachedName="TitleOfCourtesy"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[TitleOfCourtesy]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[TitleOfCourtesy]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[TitleOfCourtesy]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[BirthDate]"
                       cachedDataType="dbTimeStamp"
                       cachedName="BirthDate"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[BirthDate]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[BirthDate]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[BirthDate]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[HireDate]"
                       cachedDataType="dbTimeStamp"
                       cachedName="HireDate"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[HireDate]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[HireDate]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[HireDate]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[HomePhone]"
                       cachedDataType="wstr"
                       cachedLength="24"
                       cachedName="HomePhone"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[HomePhone]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[HomePhone]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[HomePhone]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[Extension]"
                       cachedDataType="wstr"
                       cachedLength="4"
                       cachedName="Extension"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[Extension]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Extension]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Extension]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[Notes]"
                       cachedDataType="nText"
                       cachedName="Notes"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[Notes]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Notes]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Notes]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[RegionDescription]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="RegionDescription"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[RegionDescription]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[RegionDescription]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[RegionDescription]" />
                     <inputColumn
                       refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[ReportsTo]"
                       cachedDataType="i4"
                       cachedName="ReportsTo"
                       externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[ReportsToSK]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[ReportsTo]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[ReportsTo]" />
+                    <inputColumn
+                      refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].Columns[TerritoryDescription]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="TerritoryDescription"
+                      cachedSortKeyPosition="2"
+                      externalMetadataColumnId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[TerritoryDescription]"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[TerritoryDescription]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -412,9 +421,10 @@
                       length="50"
                       name="RegionDescription" />
                     <externalMetadataColumn
-                      refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[TerritorySK]"
-                      dataType="i4"
-                      name="TerritorySK" />
+                      refId="Package\Load Employee\Load dim.Inputs[OLE DB Destination Input].ExternalColumns[TerritoryDescription]"
+                      dataType="wstr"
+                      length="50"
+                      name="TerritoryDescription" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -521,121 +531,123 @@
                       cachedLength="60"
                       cachedName="Address"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[Address]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Address]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Address]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[City]"
                       cachedDataType="wstr"
                       cachedLength="15"
                       cachedName="City"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[City]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[City]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[City]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[Region]"
                       cachedDataType="wstr"
                       cachedLength="15"
                       cachedName="Region"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[Region]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Region]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Region]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[PostalCode]"
                       cachedDataType="wstr"
                       cachedLength="10"
                       cachedName="PostalCode"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[PostalCode]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[PostalCode]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[PostalCode]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[Country]"
                       cachedDataType="wstr"
                       cachedLength="15"
                       cachedName="Country"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[Country]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Country]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Country]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[EmployeeID]"
                       cachedDataType="i4"
                       cachedName="EmployeeID"
+                      cachedSortKeyPosition="1"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[EmployeeID]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[EmployeeID]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[EmployeeID]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[LastName]"
                       cachedDataType="wstr"
                       cachedLength="20"
                       cachedName="LastName"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[LastName]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[LastName]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[LastName]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[FirstName]"
                       cachedDataType="wstr"
                       cachedLength="10"
                       cachedName="FirstName"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[FirstName]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[FirstName]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[FirstName]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[Title]"
                       cachedDataType="wstr"
                       cachedLength="30"
                       cachedName="Title"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[Title]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Title]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Title]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[TitleOfCourtesy]"
                       cachedDataType="wstr"
                       cachedLength="25"
                       cachedName="TitleOfCourtesy"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[TitleOfCourtesy]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[TitleOfCourtesy]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[TitleOfCourtesy]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[BirthDate]"
                       cachedDataType="dbTimeStamp"
                       cachedName="BirthDate"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[BirthDate]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[BirthDate]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[BirthDate]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[HireDate]"
                       cachedDataType="dbTimeStamp"
                       cachedName="HireDate"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[HireDate]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[HireDate]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[HireDate]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[HomePhone]"
                       cachedDataType="wstr"
                       cachedLength="24"
                       cachedName="HomePhone"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[HomePhone]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[HomePhone]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[HomePhone]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[Extension]"
                       cachedDataType="wstr"
                       cachedLength="4"
                       cachedName="Extension"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[Extension]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Extension]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Extension]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[Notes]"
                       cachedDataType="nText"
                       cachedName="Notes"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[Notes]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Notes]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Notes]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[ReportsTo]"
                       cachedDataType="i4"
                       cachedName="ReportsTo"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[ReportsTo]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[ReportsTo]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[ReportsTo]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[TerritoryDescription]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="TerritoryDescription"
+                      cachedSortKeyPosition="2"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[TerritoryDescription]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[TerritoryDescription]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[TerritoryDescription]" />
                     <inputColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].Columns[RegionDescription]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="RegionDescription"
                       externalMetadataColumnId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[RegionDescription]"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[RegionDescription]" />
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[RegionDescription]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -717,7 +729,7 @@
                     <externalMetadataColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[TerritoryDescription]"
                       dataType="wstr"
-                      length="100"
+                      length="50"
                       name="TerritoryDescription" />
                     <externalMetadataColumn
                       refId="Package\Load Employee\Load staging.Inputs[OLE DB Destination Input].ExternalColumns[RegionDescription]"
@@ -804,12 +816,12 @@ where [refTable].[EmployeeID] = ?</property>
                 <property
                   dataType="System.String"
                   description="Indicates whether to reference metadata in an XML format."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="EmployeeSK" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="EmployeeID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="LastName" dataType="DT_WSTR" length="20" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="FirstName" dataType="DT_WSTR" length="10" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Title" dataType="DT_WSTR" length="30" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="TitleOfCourtesy" dataType="DT_WSTR" length="25" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="BirthDate" dataType="DT_DBTIMESTAMP" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="HireDate" dataType="DT_DBTIMESTAMP" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Address" dataType="DT_WSTR" length="60" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="City" dataType="DT_WSTR" length="15" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Region" dataType="DT_WSTR" length="15" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="PostalCode" dataType="DT_WSTR" length="10" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Country" dataType="DT_WSTR" length="15" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="HomePhone" dataType="DT_WSTR" length="24" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Extension" dataType="DT_WSTR" length="4" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Notes" dataType="DT_NTEXT" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ReportsToSK" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="PhotoPath" dataType="DT_WSTR" length="255" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="TerritoryDescription" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="RegionDescription" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="EmployeeSK" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="EmployeeID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="LastName" dataType="DT_WSTR" length="20" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="FirstName" dataType="DT_WSTR" length="10" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Title" dataType="DT_WSTR" length="30" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="TitleOfCourtesy" dataType="DT_WSTR" length="25" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="BirthDate" dataType="DT_DBTIMESTAMP" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="HireDate" dataType="DT_DBTIMESTAMP" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Address" dataType="DT_WSTR" length="60" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="City" dataType="DT_WSTR" length="15" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Region" dataType="DT_WSTR" length="15" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="PostalCode" dataType="DT_WSTR" length="10" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Country" dataType="DT_WSTR" length="15" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="HomePhone" dataType="DT_WSTR" length="24" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Extension" dataType="DT_WSTR" length="4" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Notes" dataType="DT_NTEXT" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ReportsToSK" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="TerritoryDescription" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="RegionDescription" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
                 <property
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[EmployeeID]};</property>
+                  name="ParameterMap">#{Package\Load Employee\Sort.Outputs[Sort Output].Columns[EmployeeID]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -836,7 +848,8 @@ where [refTable].[EmployeeID] = ?</property>
                       refId="Package\Load Employee\Lookup.Inputs[Lookup Input].Columns[EmployeeID]"
                       cachedDataType="i4"
                       cachedName="EmployeeID"
-                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[EmployeeID]">
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[EmployeeID]">
                       <properties>
                         <property
                           dataType="System.String"
@@ -1360,6 +1373,594 @@ where [refTable].[EmployeeID] = ?</property>
                 </output>
               </outputs>
             </component>
+            <component
+              refId="Package\Load Employee\Sort"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Load Employee\Sort.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[Address]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="Address"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Address]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[City]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="City"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[City]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[Region]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="Region"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Region]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[PostalCode]"
+                      cachedDataType="wstr"
+                      cachedLength="10"
+                      cachedName="PostalCode"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[PostalCode]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[Country]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="Country"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Country]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[EmployeeID]"
+                      cachedDataType="i4"
+                      cachedName="EmployeeID"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[EmployeeID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[LastName]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="LastName"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[LastName]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[FirstName]"
+                      cachedDataType="wstr"
+                      cachedLength="10"
+                      cachedName="FirstName"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[FirstName]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[Title]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="Title"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Title]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[TitleOfCourtesy]"
+                      cachedDataType="wstr"
+                      cachedLength="25"
+                      cachedName="TitleOfCourtesy"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[TitleOfCourtesy]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[BirthDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="BirthDate"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[BirthDate]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[HireDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="HireDate"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[HireDate]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[HomePhone]"
+                      cachedDataType="wstr"
+                      cachedLength="24"
+                      cachedName="HomePhone"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[HomePhone]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[Extension]"
+                      cachedDataType="wstr"
+                      cachedLength="4"
+                      cachedName="Extension"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Extension]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[Notes]"
+                      cachedDataType="nText"
+                      cachedName="Notes"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Notes]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[ReportsTo]"
+                      cachedDataType="i4"
+                      cachedName="ReportsTo"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[ReportsTo]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[TerritoryDescription]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="TerritoryDescription"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[TerritoryDescription]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Employee\Sort.Inputs[Sort Input].Columns[RegionDescription]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="RegionDescription"
+                      lineageId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[RegionDescription]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Employee\Sort.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Address]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Address]"
+                      name="Address">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Address]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[City]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[City]"
+                      name="City">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[City]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Region]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Region]"
+                      name="Region">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Region]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[PostalCode]"
+                      dataType="wstr"
+                      length="10"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[PostalCode]"
+                      name="PostalCode">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[PostalCode]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Country]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Country]"
+                      name="Country">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Country]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[EmployeeID]"
+                      dataType="i4"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[EmployeeID]"
+                      name="EmployeeID"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[EmployeeID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[LastName]"
+                      dataType="wstr"
+                      length="20"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[LastName]"
+                      name="LastName">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[LastName]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[FirstName]"
+                      dataType="wstr"
+                      length="10"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[FirstName]"
+                      name="FirstName">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[FirstName]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Title]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Title]"
+                      name="Title">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Title]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[TitleOfCourtesy]"
+                      dataType="wstr"
+                      length="25"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[TitleOfCourtesy]"
+                      name="TitleOfCourtesy">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[TitleOfCourtesy]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[BirthDate]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[BirthDate]"
+                      name="BirthDate">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[BirthDate]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[HireDate]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[HireDate]"
+                      name="HireDate">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[HireDate]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[HomePhone]"
+                      dataType="wstr"
+                      length="24"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[HomePhone]"
+                      name="HomePhone">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[HomePhone]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Extension]"
+                      dataType="wstr"
+                      length="4"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Extension]"
+                      name="Extension">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Extension]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Notes]"
+                      dataType="nText"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[Notes]"
+                      name="Notes">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[Notes]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[ReportsTo]"
+                      dataType="i4"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[ReportsTo]"
+                      name="ReportsTo">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[ReportsTo]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[TerritoryDescription]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[TerritoryDescription]"
+                      name="TerritoryDescription"
+                      sortKeyPosition="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[TerritoryDescription]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[RegionDescription]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Load Employee\Sort.Outputs[Sort Output].Columns[RegionDescription]"
+                      name="RegionDescription">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output].Columns[RegionDescription]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
           </components>
           <paths>
             <path
@@ -1374,9 +1975,14 @@ where [refTable].[EmployeeID] = ?</property>
               startId="Package\Load Employee\Lookup.Outputs[Lookup No Match Output]" />
             <path
               refId="Package\Load Employee.Paths[OLE DB Source Output]"
-              endId="Package\Load Employee\Lookup.Inputs[Lookup Input]"
+              endId="Package\Load Employee\Sort.Inputs[Sort Input]"
               name="OLE DB Source Output"
               startId="Package\Load Employee\OLE DB Source.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Load Employee.Paths[Sort Output]"
+              endId="Package\Load Employee\Lookup.Inputs[Lookup Input]"
+              name="Sort Output"
+              startId="Package\Load Employee\Sort.Outputs[Sort Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -1618,54 +2224,68 @@ where [refTable].[EmployeeID] = ?</property>
     design-time-name="Package\Load Employee">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="112.8,41.6"
-          Id="Package\Load Employee\Lookup"
-          TopLeft="345.714286450221,128.470588122684" />
-        <NodeLayout
-          Size="121.6,41.6"
-          Id="Package\Load Employee\Load dim"
-          TopLeft="489.285715327275,218.705882161237" />
-        <NodeLayout
-          Size="149.6,41.6"
-          Id="Package\Load Employee\OLE DB Source"
-          TopLeft="325.714286407646,37.4705882024497" />
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="138.4,41.6"
           Id="Package\Load Employee\Load staging"
-          TopLeft="162.857143203823,212.588235107776" />
+          TopLeft="158.571428908986,248.52941154686" />
+        <NodeLayout
+          Size="112.8,41.6"
+          Id="Package\Load Employee\Lookup"
+          TopLeft="340.714286439577,164.411764561768" />
+        <NodeLayout
+          Size="121.6,41.6"
+          Id="Package\Load Employee\Load dim"
+          TopLeft="485.000001032438,254.647058600321" />
+        <NodeLayout
+          Size="149.6,41.6"
+          Id="Package\Load Employee\OLE DB Source"
+          TopLeft="325.714286407646,9.94117646187442" />
         <EdgeLayout
-          Id="Package\Load Employee.Paths[OLE DB Source Output]"
-          TopLeft="401.314286428933,79.0705882024497">
+          Id="Package\Load Employee.Paths[Lookup Match Output]"
+          TopLeft="379.647619772911,206.011764561768">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,49.3999999202343"
+              EndConnector="-151.876190863925,42.517646985092"
               Start="0,0"
-              End="0,41.8999999202343">
+              End="-151.876190863925,35.017646985092">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,41.8999999202343" />
+                    End="0,13.3638502372684" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.3638502372684"
+                    Point2="0,17.3638502372684"
+                    Point3="-4,17.3638502372684" />
+                  <mssgle:LineSegment
+                    End="-147.876190863925,17.3638502372684" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-147.876190863925,17.3638502372684"
+                    Point2="-151.876190863925,17.3638502372684"
+                    Point3="-151.876190863925,21.3638502372684" />
+                  <mssgle:LineSegment
+                    End="-151.876190863925,35.017646985092" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-124.129482150713,22.3638502372684,96.3827734375,11.609375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Employee.Paths[Lookup No Match Output]"
-          TopLeft="419.580953116887,170.070588122684">
+          TopLeft="414.580953106244,206.011764561768">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="130.504762210388,48.635294038553"
+              EndConnector="131.219047926194,48.635294038553"
               Start="0,0"
-              End="130.504762210388,41.135294038553">
+              End="131.219047926194,41.135294038553">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -1676,69 +2296,94 @@ where [refTable].[EmployeeID] = ?</property>
                     Point2="0,19.8622459570035"
                     Point3="4,19.8622459570035" />
                   <mssgle:LineSegment
-                    End="126.504762210388,19.8622459570035" />
+                    End="127.219047926194,19.8622459570035" />
                   <mssgle:CubicBezierSegment
-                    Point1="126.504762210388,19.8622459570035"
-                    Point2="130.504762210388,19.8622459570035"
-                    Point3="130.504762210388,23.8622459570035" />
+                    Point1="127.219047926194,19.8622459570035"
+                    Point2="131.219047926194,19.8622459570035"
+                    Point3="131.219047926194,23.8622459570035" />
                   <mssgle:LineSegment
-                    End="130.504762210388,41.135294038553" />
+                    End="131.219047926194,41.135294038553" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="9.44599438644379,24.8622459570035,111.6127734375,11.609375"
+              BoundingBox="9.80313724434679,24.8622459570035,111.6127734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Load Employee\Sort"
+          TopLeft="348.571429313446,82.5882352217257" />
         <EdgeLayout
-          Id="Package\Load Employee.Paths[Lookup Match Output]"
-          TopLeft="384.647619783554,170.070588122684">
+          Id="Package\Load Employee.Paths[OLE DB Source Output]"
+          TopLeft="398.942857860546,51.5411764618744">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-152.590476579731,42.517646985092"
+              EndConnector="0,31.0470587598513"
               Start="0,0"
-              End="-152.590476579731,35.017646985092">
+              End="0,23.5470587598513">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.3638502372683" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,13.3638502372683"
-                    Point2="0,17.3638502372683"
-                    Point3="-4,17.3638502372683" />
-                  <mssgle:LineSegment
-                    End="-148.590476579731,17.3638502372683" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-148.590476579731,17.3638502372683"
-                    Point2="-152.590476579731,17.3638502372683"
-                    Point3="-152.590476579731,21.3638502372683" />
-                  <mssgle:LineSegment
-                    End="-152.590476579731,35.017646985092" />
+                    End="0,23.5470587598513" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-124.486625008616,22.3638502372683,96.3827734375,11.609375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Employee.Paths[Sort Output]"
+          TopLeft="397.242857876511,124.188235221726">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,40.2235293400427"
+              Start="0,0"
+              End="0,32.7235293400427">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.7235293400427" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Load Employee\Load staging">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Load Employee\Lookup">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1770,19 +2415,6 @@ where [refTable].[EmployeeID] = ?</property>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Load Employee\OLE DB Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Employee\Load staging">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
