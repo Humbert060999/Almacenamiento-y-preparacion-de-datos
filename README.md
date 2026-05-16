@@ -53,7 +53,7 @@ La base de datos transaccional contiene tablas normalizadas en tercera forma nor
 
 Estas tablas están relacionadas mediante claves primarias y foráneas para mantener la integridad de los datos.
 
-![Diagrama Modelo OLTP Transaccional](Diagrama%20NorthWindOLTP.png)
+<img src="image/Diagrama NorthWindOLTP.png" width="1000">
 
 ---
 
@@ -73,7 +73,7 @@ Para optimizar el rendimiento de las consultas analíticas, se transformaron las
 - DimEmployee: Jerarquías y datos del equipo de ventas.
 - DimShipper: Información de las empresas de transporte de carga.
   
-![Diagrama Data Warehouse Estrella](Diagrama%20NorthWindDW%20(Modelo%20Estrella).png)
+<img src="image/Diagrama NorthWindDW (Modelo Estrella).png" width="1000">
 ---
 # Estrategia de Carga Incremental (Mecanismo ETL)
 
@@ -91,26 +91,29 @@ Cada paquete implementado: Customer.dtsx, Employee.dtsx, Product.dtsx, Shipper.d
 
 ---
 
-# Evidencias de Ejecución (Logs Visuales)
+# Evidencias de Ejecución 
 
 Se adjuntan las capturas de pantalla de la herramienta de diseño e inspección en tiempo de ejecución, certificando la finalización en estado exitoso de los diferentes componentes del proyecto:
 
-### Flujo de Control General (Paquete de Hechos - Orders)
+## Dimensión Clientes (Customer.dtsx)
+Muestra el flujo de datos que clasifica a los clientes de la tienda, separando los registros nuevos de los que necesitan actualizarse.
+<img src="image/FCustomer.png" width="1000">
+
+## Dimensión Empleados (Employee.dtsx)
+Muestra el proceso de carga en verde de la lista del equipo de ventas hacia el almacén de datos.
+<img src="image/FCEmployee.png" width="1000">
+
+## Dimensión Productos (Product.dtsx)
+Muestra la extracción de los productos, sus categorías y sus proveedores consolidados de forma incremental.
+<img src="image/FCProduct.png" width="1000">
+
+## Dimensión Transportistas (Shipper.dtsx)
+Muestra la carga exitosa de las empresas encargadas de los envíos de carga de NorthWind.
+<img src="image/FCShipper.png" width="1000">
+
+## Paquete de Hechos (Orders.dtsx)
 Validación del ciclo completo de sincronización, desde el análisis del rango de versiones de fila de la base de datos hasta la fase de actualización de configuración.
-
-![Flujo de Control - Orders](Captura%20de%20pantalla%202026-05-16%20145036.png)
-
-### Flujo de Datos en Dimensiones (Ejemplo: DimCustomer)
-Implementación de componentes de búsqueda avanzada (Lookup) para clasificar de manera automática el flujo entrante:
-- Lookup Match Output: Registros existentes que se desvían al aislamiento en Staging para evaluar actualizaciones.
-- Lookup No Match Output: Elementos completamente nuevos que se canalizan directamente hacia Load dim para su inserción física.
-
-![Flujo de Datos - DimCustomer](Captura%20de%20pantalla%202026-05-16%20144243.png)
-
-### Flujo de Datos en Tabla de Hechos (FactOrders)
-Resolución dinámica de claves foráneas mediante la conversión consecutiva de llaves de negocio a claves subrogadas utilizando componentes de búsqueda encadenados Lookup CustomerSK, Lookup EmployeeSK`, etc. 
-
-![Flujo de Datos - FactOrders](Captura%20de%20pantalla%202026-05-16%20145141.png)
+<img src="image/FactOrders.png" width="1000">
 
 ---
 
