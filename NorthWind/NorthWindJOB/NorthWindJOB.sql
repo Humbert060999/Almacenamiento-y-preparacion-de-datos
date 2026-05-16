@@ -1,11 +1,11 @@
 USE [msdb]
 GO
 
-/****** Object:  Job [NorthWind]    Script Date: 07/05/2026 06:03:53 p. m. ******/
+/****** Object:  Job [NorthWind]    Script Date: 15/05/2026 11:38:34 p. m. ******/
 BEGIN TRANSACTION
 DECLARE @ReturnCode INT
 SELECT @ReturnCode = 0
-/****** Object:  JobCategory [[Uncategorized (Local)]]    Script Date: 07/05/2026 06:03:53 p. m. ******/
+/****** Object:  JobCategory [[Uncategorized (Local)]]    Script Date: 15/05/2026 11:38:34 p. m. ******/
 IF NOT EXISTS (SELECT name FROM msdb.dbo.syscategories WHERE name=N'[Uncategorized (Local)]' AND category_class=1)
 BEGIN
 EXEC @ReturnCode = msdb.dbo.sp_add_category @class=N'JOB', @type=N'LOCAL', @name=N'[Uncategorized (Local)]'
@@ -25,7 +25,7 @@ EXEC @ReturnCode =  msdb.dbo.sp_add_job @job_name=N'NorthWind',
 		@category_name=N'[Uncategorized (Local)]', 
 		@owner_login_name=N'VICTUS-GAMING-1\lucana', @job_id = @jobId OUTPUT
 IF (@@ERROR <> 0 OR @ReturnCode <> 0) GOTO QuitWithRollback
-/****** Object:  Step [Load Customer]    Script Date: 07/05/2026 06:03:53 p. m. ******/
+/****** Object:  Step [Load Customer]    Script Date: 15/05/2026 11:38:35 p. m. ******/
 EXEC @ReturnCode = msdb.dbo.sp_add_jobstep @job_id=@jobId, @step_name=N'Load Customer', 
 		@step_id=1, 
 		@cmdexec_success_code=0, 
@@ -40,7 +40,7 @@ EXEC @ReturnCode = msdb.dbo.sp_add_jobstep @job_id=@jobId, @step_name=N'Load Cus
 		@database_name=N'master', 
 		@flags=0
 IF (@@ERROR <> 0 OR @ReturnCode <> 0) GOTO QuitWithRollback
-/****** Object:  Step [Load Employee]    Script Date: 07/05/2026 06:03:53 p. m. ******/
+/****** Object:  Step [Load Employee]    Script Date: 15/05/2026 11:38:35 p. m. ******/
 EXEC @ReturnCode = msdb.dbo.sp_add_jobstep @job_id=@jobId, @step_name=N'Load Employee', 
 		@step_id=2, 
 		@cmdexec_success_code=0, 
@@ -55,7 +55,7 @@ EXEC @ReturnCode = msdb.dbo.sp_add_jobstep @job_id=@jobId, @step_name=N'Load Emp
 		@database_name=N'master', 
 		@flags=0
 IF (@@ERROR <> 0 OR @ReturnCode <> 0) GOTO QuitWithRollback
-/****** Object:  Step [Load Product]    Script Date: 07/05/2026 06:03:54 p. m. ******/
+/****** Object:  Step [Load Product]    Script Date: 15/05/2026 11:38:35 p. m. ******/
 EXEC @ReturnCode = msdb.dbo.sp_add_jobstep @job_id=@jobId, @step_name=N'Load Product', 
 		@step_id=3, 
 		@cmdexec_success_code=0, 
@@ -70,7 +70,7 @@ EXEC @ReturnCode = msdb.dbo.sp_add_jobstep @job_id=@jobId, @step_name=N'Load Pro
 		@database_name=N'master', 
 		@flags=0
 IF (@@ERROR <> 0 OR @ReturnCode <> 0) GOTO QuitWithRollback
-/****** Object:  Step [Load Shipper]    Script Date: 07/05/2026 06:03:54 p. m. ******/
+/****** Object:  Step [Load Shipper]    Script Date: 15/05/2026 11:38:35 p. m. ******/
 EXEC @ReturnCode = msdb.dbo.sp_add_jobstep @job_id=@jobId, @step_name=N'Load Shipper', 
 		@step_id=4, 
 		@cmdexec_success_code=0, 
@@ -85,7 +85,7 @@ EXEC @ReturnCode = msdb.dbo.sp_add_jobstep @job_id=@jobId, @step_name=N'Load Shi
 		@database_name=N'master', 
 		@flags=0
 IF (@@ERROR <> 0 OR @ReturnCode <> 0) GOTO QuitWithRollback
-/****** Object:  Step [Load Orders]    Script Date: 07/05/2026 06:03:54 p. m. ******/
+/****** Object:  Step [Load Orders]    Script Date: 15/05/2026 11:38:35 p. m. ******/
 EXEC @ReturnCode = msdb.dbo.sp_add_jobstep @job_id=@jobId, @step_name=N'Load Orders', 
 		@step_id=5, 
 		@cmdexec_success_code=0, 
@@ -124,4 +124,5 @@ QuitWithRollback:
     IF (@@TRANCOUNT > 0) ROLLBACK TRANSACTION
 EndSave:
 GO
+
 
